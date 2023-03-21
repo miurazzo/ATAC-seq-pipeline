@@ -5,6 +5,16 @@ We start downloading a paired-end CTCF ATAC-seq experiment and focus on chromoso
 Then, we process the data, check quality of the paired reads, align reads to the reference genome (hg38) and call peaks. 
 Finally, we visualize the peaks in genome browser. 
 
+### Tools used:
+
+    * FastQC
+    * CutAdapt
+    * Bowtie 2
+    * SAMtools
+    * Picard
+    * BEDtools
+    * MACS2
+
 ![Captura de tela de 2023-03-20 18-51-42](https://user-images.githubusercontent.com/101593641/226698491-42967121-c363-4a76-93dd-d3538a35d92c.png)
 
 
